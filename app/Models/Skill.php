@@ -19,9 +19,4 @@ class Skill extends Model
     {
         return $this->belongsToMany(Team::class, 'team_skill');
     }
-
-    public function tickets(): BelongsToMany
-    {
-        return $this->belongsToMany(Ticket::class, 'ticket_skill');
-    }
 }

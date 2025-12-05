@@ -23,8 +23,6 @@ class TicketController extends Controller
             'team_id' => 'nullable|exists:teams,id',
             'workflow_stage_id' => 'nullable|exists:workflow_stages,id',
             'due_at' => 'nullable|date',
-            'skills' => 'array',
-            'skills.*' => 'integer|exists:skills,id',
         ]));
 
         $ticket->skills()->sync($request->input('skills', []));
