@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Ticket;
 use App\Models\WorkflowStage;
-use Illuminate\Support\Carbon;
 
 class DashboardController extends Controller
 {
