@@ -65,3 +65,4 @@ O repositório já inclui a árvore `storage/` e `bootstrap/cache/` com os `.git
 
 8. **Verifique permissões de escrita**
    - Se usar outro disco/pasta, confirme que o usuário atual pode escrever em `storage/` e `bootstrap/cache/`; se necessário, execute o terminal como Administrador.
+Clone o repositório, configure o `.env`, execute as migrações e seeders para popular dados e acesse o dashboard principal em `/`.
